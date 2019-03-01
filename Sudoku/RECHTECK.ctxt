@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RECHTECK()
+comment0.text=\r\n\ Erzeuge\ ein\ neues\ Rechteck\ mit\ einer\ Standardposition\ und\ einer\r\n\ Standardf\uFFFDllfarbe.\ Das\ zugeh\uFFFDrige\ Symbol\ wird\ sofort\ angezeigt.\r\n
+comment1.params=NeuesX\ NeuesY
+comment1.target=void\ PositionSetzen(int,\ int)
+comment1.text=\r\n\ Die\ Position\ (linke,\ obere\ Ecke)\ dieses\ Rechtecks\r\n\ auf\ die\ neuen\ Werte\ setzen.\r\n
+comment2.params=neueBreite\ neueHoehe
+comment2.target=void\ GroesseSetzen(int,\ int)
+comment2.text=\r\n\ Die\ Gr\uFFFD\uFFFDe\ dieses\ Rechteckes\ auf\ die\ neue\ Breite\ \r\n\ und\ die\ neue\ H\uFFFDhe\ setzen.\ \r\n
+comment3.params=neueFarbe
+comment3.target=void\ FarbeSetzen(java.lang.String)
+comment3.text=\r\n\ Die\ F\uFFFDllfarbe\ dieses\ Rechtecks\ auf\ 'neueFarbe'\ setzen.\ \r\n\ Erlaubte\ Parameterwerte\ sind\:\r\n\ "rot",\ "gruen",\ "blau",\ "gelb",\ "cyan",\ "magenta",\ "schwarz",\ "weiss"\r\n\ "hellgelb",\ "hellgruen",\ "orange",\ "braun"\r\n
+comment4.params=neueSichtbarkeit
+comment4.target=void\ SichtbarSetzen(boolean)
+comment4.text=\r\n\ Die\ Sichtbarkeit\ dieses\ Rechtecks\ ein-\ oder\ ausschalten.\r\n\ Erlaubte\ Parameterwerte\:\ true,\ false\r\n
+comment5.params=
+comment5.target=void\ Zeichnen()
+comment5.text=\r\n\ Zeichne\ f\uFFFDr\ dieses\ Rechteck\ ein\ entsprechendes\ Grafiksymbol\r\n\ in\ dem\ Grafikfenster.\r\n\ Nach\ jeder\ \uFFFDnderung\ muss\ das\ Rechteck\ diese\ \uFFFDnderung\ seinem\ \r\n\ Grafiksymbol\ mitteilen.\r\n
+numComments=6

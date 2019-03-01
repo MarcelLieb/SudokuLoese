@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sudoku()
+comment1.params=W1\ W2\ W3\ W4\ W5\ W6\ W7\ W8\ W9
+comment1.target=void\ Input(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ W1\ bedeulktet\ Werte\ der\ 1.\ Zeile\ von\ oben,W2\ der\ 2.Zeile\ etc.\r\n\ Die\ Werte\ der\ Zeilen\ bitte\ von\ links\ nach\ rechts\ eingeben\r\n\ F\u00FCr\ die\ leeren\ Felder\ bitte\ 0\ eingeben\r\n
+comment2.params=Zeile\ Werte
+comment2.target=void\ Zeilenedit(int,\ int)
+comment3.params=
+comment3.target=void\ l\u00F6sen()
+numComments=4

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ZEICHENFLAECHE()
+comment0.text=\r\n\ Konstruktor\ der\ Klasse\ ZEICHENFLAECHE\ \r\n\ \r\n\ Erstellt\ ein\ Fenster\ (JFrame),\ dessen\ Innenbereich\ von\ einer\r\n\ wei\uFFFDen\ Malfl\uFFFDche\ ausgef\uFFFDllt\ wird.\r\n\ Als\ Malfl\uFFFDche\ dient\ ein\ Objekt\ der\ Unterklasse\ MalPanel\ von\ JPanel.\r\n\ Das\ Zeichnen\ erfolgt\ nicht\ direkt\ auf\ dieser\ Malfl\uFFFDche\ sondern\r\n\ auf\ einem\ Hintergrundbild,\ das\ dann\ zur\ Anzeige\ im\ Ganzen\r\n\ auf\ die\ Malfl\uFFFDche\ kopiert\ wird.\r\n
+comment1.params=
+comment1.target=ZEICHENFLAECHE\ ObjektGeben()
+comment1.text=\r\n\ Fabrikmethode.\ Liefert\ eine\ Referenz\ auf\ das\ einzige\ Objekt\ der\ Klasse\r\n\ ZEICHENFLAECHE\ zur\uFFFDck.\ Wenn\ es\ noch\ nicht\ existiert,\ dann\ wird\ es\ erzeugt.\r\n
+comment2.params=was
+comment2.target=int\ anmelden(ZEICHENFLAECHE.SymbolArt)
+comment2.text=\r\n\ Jede\ Figur\ muss\ sich\ beim\ Grafikfenster\ anmelden,\r\n\ damit\ ihr\ Grafiksymbol\ in\ die\ Liste\ der\ zu\ zeichnenden\r\n\ Symbole\ aufgenommen\ wird.\r\n\ \r\n\ @return\ eindeutige\ ID\ des\ zugeordneten\ Grafiksymbols\r\n
+comment3.params=kennung\ aktX\ aktY\ aktBreite\ aktHoehe\ aktFarbe\ aktSichtbar
+comment3.target=void\ zeichnen(int,\ int,\ int,\ int,\ int,\ java.lang.String,\ boolean)
+comment3.text=\r\n\ Grafiksymbol\ vor\ der\ Zeichnung\ anpassen\r\n\ \ \r\n\ Wenn\ sich\ an\ einer\ Figur\ etwas\ \uFFFDndert,\ dann\ muss\ die\ Figur\r\n\ diese\ \uFFFDnderung\ seinem\ Grafiksysmbol\ mitteilen.\ Das\ Grafiksymbol\r\n\ veranlasst\ dann,\ wenn\ erforderlich,\ ein\ neues\ Zeichnen.\r\n\ Ein\ sinngerechterer\ Name\ f\uFFFDr\ diese\ Methode\ w\uFFFDre\ \uFFFDnderungMitteilen().\r\n
+comment4.params=
+comment4.target=void\ alleZeichnen()
+comment4.text=\r\n\ Zeichnet\ alle\ Grafiksymbole\ auf\ das\ Hintergrundbild\r\n
+comment5.params=
+comment5.target=void\ loeschen()
+comment5.text=\r\n\ Das\ gesamte\ Hintergrundbild\ l\uFFFDschen\r\n
+comment6.params=farbname
+comment6.target=void\ zeichenfarbeSetzen(java.lang.String)
+comment6.text=\r\n\ Die\ Zeichenfarbe\ f\uFFFDr\ das\ Hintergrundbild\ setzen\r\n\ \r\n\ @param\ farbName\r\n\ \ \ \ \ \ \ \ \ \ Name\ der\ Zeichenfarbe\r\n
+comment7.params=
+comment7.target=int\ X()
+comment8.params=
+comment8.target=int\ Y()
+numComments=9
